@@ -52,6 +52,21 @@ footer p {
     margin-top: 0.5rem;
 }
 
+ /* rotacionar o cartao quando o mouse passa em cima*/
 
+
+.cartao:hover .cartao_conteudo {
+   transform: rotateY(180deg);
+}
+
+.resposta{
+trnasform::rotateY
+}
+
+.pergunta, .resposta{
+    backface-visibility: hidden;
+    position: absulute;
+    height:100%
+    width: 100%
 }
 
